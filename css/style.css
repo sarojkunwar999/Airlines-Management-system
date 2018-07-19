@@ -1,0 +1,207 @@
+body
+{
+	background-image:url("plane.jpg");
+	
+}
+*
+{
+	margin:0;
+	padding:0;
+	font-family:"Trebuchet MS";
+	box-sizing:border-box;
+
+
+}
+
+#wrapper
+{
+
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	border-radius:5px 5px 5px 5px;
+	box-shadow:2px 2px 2px 5px #666;
+}
+
+#header
+{
+	clear:both;
+	margin-top:20px;
+	background-color:#39f;
+	box-shadow:2px 2px 2px 5px white;
+	text-shadow:2px 2px 5px #666;
+	margin-bottom:3px;
+}
+#header p
+{
+	font-size:40px;
+	text-align:center;
+	color:white;
+	
+}
+#header img
+{
+	padding:2px;
+	float:left;
+	margin-top:-44px;
+	width:100px;
+}
+
+#header #date
+{
+	color:white;
+	margin-left:800px;
+	font-size:20px;
+}
+
+
+
+#nav
+{
+	margin-bottom:3px;
+	background-color:#39f;
+	font-size:25px;
+	box-shadow:2px 2px 2px 3px white;
+
+
+}
+
+#nav a
+{
+	color:white;
+	text-decoration:none;
+	text-shadow:2px 2px 3px #666;
+	margin:5px;
+	padding:5px;
+
+
+}
+#nav a:hover
+{
+	cursor:pointer;
+	color:black;
+
+}
+ #nav a:active
+ {
+ 	color:green;
+ }
+
+#container
+{
+	margin-top:3px;
+	background-color:#39F;
+	box-shadow:2px 2px 2px 3px white;
+}
+
+#container table tr td a
+{
+	text-decoration:none;
+	font-size:35;
+	color:white;
+
+}
+
+#container table tr td a:hover
+{
+	color:black;
+	
+}
+table tr td select,input[type="text"],input[type="date"]
+{
+	width:100%;
+
+}
+table tr td input[type="submit"]
+{
+	outline:none;
+	border:none;
+	padding:4px;
+	box-shadow:2px 2px 2px 2px #666;
+	border-radius:3px;
+	margin:5px;
+	position:relative;
+	transition:0.3s;
+}
+table tr td input[type="password"],input[type="email"]
+{
+	width:100%;
+
+}
+
+table tr td input[type="submit"]:hover
+{
+	cursor:pointer;
+	transform:scale(1.1);
+
+}
+
+
+
+
+
+
+#container img
+{
+	transform:scaleX(2);
+	transform:translateX(-3px); 
+	float:right;
+	height:157px;
+	
+}
+
+#container table
+{
+	margin-left:20px;
+	font-size:20px;
+	color:white;
+
+}
+
+#main_section
+{
+	width:1100px;
+	margin-top:15px;
+
+}
+
+#main_section #content
+{
+	padding:5px;
+	width:740px;
+	margin:7px;
+	float:left;
+	color:#666;
+	border-radius:3px 3px 3px 3px;
+}
+
+#main_section #content p
+{
+	color:#39F;
+	font-size:25px;
+}
+
+#main_section #aside
+{
+	padding:5px;
+	width:300px;
+	color:#666;
+	border-radius:3px 3px 3px 3px;
+	float:left;
+	
+}
+
+
+
+
+
+#footer
+{
+
+	clear:both;
+	border-top:3px solid black;
+	margin-top:5px;
+	background-color:#39f;
+	text-align:center;
+}
